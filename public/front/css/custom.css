@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+body {font-family: 'Quicksand', sans-serif !important;background-color: #fafafa;}
+:root {
+    --main-color: #279CD7;
+    --sub-color: #115171;
+    --orange-color: #FFCB00;
+}
+.orange-color {color: var(--orange-color);}
+.main-color {color: var(--main-color);}
+.sub-color{color: var(--sub-color);}
+.bc {border-radius: 40px !important;}
+.bg-body-tertiary {background-color: var(--main-color) !important;}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {color: #FFF !important;}
+.navbar-nav .nav-link {color: #FFF !important;}
+.navbar {padding: 0;}
+
+.btn-color{background: var(--sub-color) !important;border-color: var(--sub-color) !important;border-radius: 40px;}
+
+.home-search .input-group-text {background: #FFF !important;border-right: none;border-top-left-radius: 20px;border-bottom-left-radius: 20px;}
+.home-search .form-control {border-left: none;outline: none;box-shadow: unset;border-top-right-radius: 20px;border-bottom-right-radius: 20px;}
+.home-search .form-control:focus {border-color: #dee2e6;}
+.home-header .left h1 {font-size: 60px;}
+.home-header .left p {font-size: 20px;}
+.home-header .right {height: 320px;background-image: url('../img/Vector.png');display: flex;justify-content: center;align-items: center;}
+.home-header .con-lines {position: relative;height: 180px;}
+.home-header .con-lines svg {position: absolute;}
+.home-header .con-lines svg:nth-of-type(2) {top: 10px;}
+.home-header .con-lines svg:nth-of-type(3) {top: 30px;}
+.home-header .con-lines svg:nth-of-type(4) {top: 40px;}
+
+.travel-types .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.travel-types .name {
+    background-color: #F2FCFC;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.popular-travels {position: relative;}
+
+.popular-travels .title {background-color: #FFF;text-align: center;padding: 20px;font-size: 24px;margin-top: 40px;}
+.hello path {fill: #FFCB00;}
+.popular-travels .owl-theme .custom-nav {position: absolute;top: 20%;left: 0;right: 0;}
+.popular-travels .owl-theme .custom-nav .owl-prev,
+.popular-travels .owl-theme .custom-nav .owl-next {position: absolute;height: 250px;color: inherit;background: none;border: none;z-index: 100;}
+.popular-travels .owl-theme .custom-nav .owl-prev i,
+.popular-travels .owl-theme .custom-nav .owl-next i {font-size: 2rem;color: #cecece;}
+.popular-travels .owl-theme .custom-nav .owl-prev {left: 50px;}
+.popular-travels .owl-theme .custom-nav .owl-next {right: 50px;}
+.owl-item.active {transform: scale(.7);}
+.owl-item.active.center  {transform: scale(1);}
+
+.popular-travels .item .img_card {width: 30%;height: 40%;border-radius: 20px;top: 0;left: 0;}
+.popular-travels .item .content{position: absolute;z-index: 999;left: 35%;top: 4px;}
+.popular-travels .item a {bottom: 0;left: 0;width: 100%;border-radius: 10px;background-color: var(--sub-color);}
+
+.strength-points .title {background-color: #FFF;text-align: center;padding: 20px;font-size: 24px;margin-top: 40px;}
+
+.strength-points .section {background-color: #E7F3FE;padding-top: 30px;border-radius: 30px;margin-bottom: 50px;}
+.strength-points .section:last-child{margin-bottom: 0;}
+.strength-points .content {padding: 20px;}
+.strength-points .photo {
+    align-items: center;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.strength-points .photo img {max-width: 100%;height: auto;max-height: 230px}
+
+.good-tips {background-color: #EDF2FC;border-radius: 20px;}
+.good-tips img {max-width: 100%;height: auto;}
+.good-tips .title span {background-color: #fafafa;display: inline-block;position: relative;padding: 30px 65px;}
+.good-tips .title span::after {
+    content: "";
+    border-width: 46px;
+    border-color: transparent #edf2fc #edf2fc transparent;
+    border-style: solid;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.good-tips ul li {background-color: #279CD7;color: #FFF;margin-bottom: 15px;border-radius: 20px;padding: 10px;}
+.good-tips ul li span {
+    background-color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.ask-us .title {background-color: #FFF;text-align: center;padding: 20px;font-size: 24px;margin-top: 40px;}
+.ask-us form {background-color: #19445A;margin: auto;color: #FFF;border-radius: 40px;margin-top: 90px;position: relative;}
+.ask-us .data {position: relative;}
+.ask-us .data .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EDF2FC;
+    position: absolute;
+    display: inline-block;
+    z-index: -1;
+}
+.ask-us .data .icon:nth-of-type(1) {left: 50%;top: -50px;margin-left: -25px;}
+.ask-us .data .icon:nth-of-type(2) {right: 70px;top: 50px;background-color: #EDF2FC;width: 80px;height: 80px;}
+.ask-us form .form_data{max-width: 700px;}
+.ask-us textarea{border-radius: 30px;}
+
+.home_subscription .subscrip {background-color: #18445A;border-radius: 40px;}
+.home_subscription .vector{margin-left: 125px}
+.home_subscription .subscrip_form input{background-color: #EBEBEB;padding: 19px 0 19px 140px;}
+.home_subscription .subscrip_form input::placeholder{color: #263238;font-size: 20px;}
+.home_subscription .subscrip_form img{top: 6px;left: 50px;}
+.home_subscription .subscrip_form button{background-color: #409423;}
+.social span{left: 40%;top: 35%;font-size: 20px;color: #115171;}
+.social .sm_arrow{right: 10%;top: 45%;}
+
+
+.footer{background-color: var(--main-color);overflow: hidden;}
+.footer li a{font-weight: 500;font-size: 16px;}
+.footer .logo{position: absolute;bottom: -16px;right: 100px;width: 150px;height: 160px;}
+
+@media only screen and (max-width: 641px)  {
+    .custom-nav {
+        display: none !important;
+    }
+}
+
+/* .page-link {
+    background-color: #fafafa !important;
+} */
+.active>.page-link,
+.page-link.active {
+    background-color: #115171;
+    border-color: #115171;
+}

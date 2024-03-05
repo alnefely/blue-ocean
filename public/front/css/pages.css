@@ -1,0 +1,27 @@
+.trips_section .trip .img_card {width: 30%;height: 52%;border-radius: 20px;top: 0;left: 0;}
+.trips_section .trip .content{position: absolute;z-index: 999;left: 35%;top: 4px;}
+.trips_section .trip .tripDays span{color:#F25C05;}
+.trips_section .trip a {bottom: 0;left: 0;width: 100%;border-radius: 10px;background-color: var(--sub-color);}
+/* .trips_section .pages a{background-color: #9db6c3;} */
+
+.details_page .trip .content h2{color:#2B4255}
+.details_page .trip .content{color:#2B4255}
+.details_page .trip .location{color:#576D7E}
+.details_page .price{font-size: 30px;color: #F25C05;border-radius: 20px;}
+.details_page .price-details{color: #2B4255;}
+.details_page .price-details a{background-color: var(--sub-color);border-radius: 10px;width: 55% !important;}
+.details_page :is(.time_date,.trip_details,.hotels) .title{background-color: #409423; border-radius: 24px;}
+.details_page :is(.time_date,.trip_details) p{color: #2B4255;width: 70%;}
+.details_page .rating .title{background-color: #EBEBEB;}
+
+.booking form{background-color: #FBF8BE;border-radius: 40px;padding: 60px;}
+.booking form input{padding: 10px 0;}
+.booking form button{background-color: #115171; width: 220.56px;}
+
+.contact_header,.about_header{background: linear-gradient(45deg, #69BAE4, #94cdeb);height: 500px;}
+:is(.contact_info,.about_info) {margin-top: -160px;}
+:is(.contact_info,.about_info) .items{background-color: #114560; border-radius: 60px;}
+.contact_subscription button{    background-color: #409423;margin-top: 31px;padding: 13px 0;}
+
+.about_info .items{width: 70%;}
+.about_info p{line-height: 1.8;}
