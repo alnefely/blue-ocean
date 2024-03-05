@@ -46,3 +46,19 @@
             </div>
         </div>
     </div>
+
+
+    @section('css')
+<style>
+    .tox-notifications-container,
+    .tox-throbber__busy-spinner,
+    .tox-promotion-link{
+        display: none !important;
+    }
+</style>
+@endsection
+
+@section('js')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.8.3/tinymce.min.js"></script>
+    <script src="{{ url('/backend/editor_config.js') }}"></script>
+@endsection
